@@ -2,10 +2,10 @@ import java.util.InputMismatchException;
 import java.util.Scanner;
 public class OperacionesAritmeticas {
     public static void main(String[] args) {
-        //Declaracion de variables.
+        //Declaración de variables.
         //Usaré float como tipo de dato para poder ingresar decimales si es necesario.
-        float numero1 = 0;
-        float numero2 = 0;
+        float numero1;
+        float numero2;
         float suma;
         float multiplicacion;
 
