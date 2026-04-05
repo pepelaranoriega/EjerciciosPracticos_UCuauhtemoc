@@ -33,7 +33,7 @@ public class OperacionesAritmeticas {
                 leer.next();
             }
         }
-
+        //Operaciones
         suma = numero1 + numero2;
         multiplicacion = numero1 * numero2;
         resta = numero1 - numero2;
@@ -45,12 +45,10 @@ public class OperacionesAritmeticas {
                                mensaje y terminará el programa*/
             System.out.println("La division no puede ser entre cero");
             return;
-        } else {
-            division = numero1 / numero2;
-            restoDeDivision = numero1 % numero2;
-            System.out.println("La división de los números nos da como resultado: " + division);
-            System.out.println("El restante de la división es: " + restoDeDivision);
         }
+        division = numero1 / numero2;
+        restoDeDivision = numero1 % numero2;
+        System.out.println("La división de los números nos da como resultado: " + division);
+        System.out.println("El restante de la división es: " + restoDeDivision);
     }
 }
-
