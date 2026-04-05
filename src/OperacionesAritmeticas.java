@@ -23,7 +23,7 @@ public class OperacionesAritmeticas {
                 leer.next();
             }
         }
-        while (true) { //Validamos que el segundo número se ingresado correctamente.
+        while (true) { //Validamos que el segundo número sea ingresado correctamente.
             try {
                 System.out.println("Ingresa el segundo valor: ");
                 numero2 = leer.nextFloat();
